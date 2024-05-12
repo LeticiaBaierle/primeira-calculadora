@@ -1,0 +1,23 @@
+numero = int (input("digite um numero:")
+operador = input ("digite um uperador:")
+numero2 = input (digite outro numero:)
+
+soma = "+" 
+divisao = "/"
+menos = "-"
+multiplicacao = "x"
+
+if operador == soma:
+  print(numero + numero2)
+
+elif operador == divisao:
+  print(numero / numero2)
+  
+elif operador == menos:
+  print(numero - numero2)
+
+elif operador == multiplicacao:
+    print(numero * numero2)
+
+else:
+print("digitou errado")
